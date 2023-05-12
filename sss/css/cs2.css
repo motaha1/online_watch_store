@@ -1,0 +1,78 @@
+.sec1{
+    height: 830px;
+    width: 50%;
+    background-color: rgb(255, 51, 0);
+    float: left;
+    /* background-image: url("../images/X.PNG"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 600PX; */
+    padding-top: 290px;
+    padding-left: 210px;
+    padding-bottom: 4000px;
+    z-index: 15;
+
+}
+body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    z-index: 5;
+}
+.sec2{
+    height: 830px;
+    width: 50%;
+    /* background-color: rgb(0, 0, 0); */
+    float: right;
+    position: absolute;
+    top: -80px;
+    left: 800px;
+    z-index: 10;
+    
+}
+
+/* .container{
+    width: 85%;
+    margin: auto;
+   
+
+} */
+/* .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+header{
+    /* background-color: rgb(0, 0, 0); */
+    overflow: hidden;
+
+
+
+}
+/* header .header-content{
+    margin-top: 53px;
+} */
+
+header img{
+    animation-name: img-watch;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+    animation-direction: alternate;
+
+}
+@keyframes img-watch{
+    0%{
+        transform: scale(1);
+
+    }
+    100%{
+        transform: scale(1.1);
+
+    }
+}
+
+.sec-imgg{
+    margin-left: 230px;
+}
